@@ -1,22 +1,11 @@
-import React from 'react';
-
 import '../css/header.css';
+import Navbar from './Navbar';
 
-function Header() {
+function Header({ pages, updatePage }) {
 	return (
 		<header className='header'>
 			<h1 className='header-title'>for the grind</h1>
-			<nav className='header-nav'>
-				<li>
-					<button className='header-nav-button'>Log In</button>
-				</li>
-				<li>
-					<button className='header-nav-button'>Sign Up</button>
-				</li>
-				<li>
-					<button className='header-nav-button'>About</button>
-				</li>
-			</nav>
+			<Navbar pages={pages} updatePage={(page) => updatePage(page)} />
 		</header>
 	);
 }

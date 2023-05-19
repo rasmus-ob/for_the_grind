@@ -1,5 +1,3 @@
-/* STYLE THE CONTENT */
-
 .content {
 	--content-txt-color: #000;
 	--content-bg-color: #fff;
@@ -9,10 +7,4 @@
 	padding: 1em;
 	background-color: var(--content-bg-color);
 	color: var(--content-txt-color);
-}
-
-.content-graph {
-	display: block;
-	width: 90%;
-	margin: auto;
 }
