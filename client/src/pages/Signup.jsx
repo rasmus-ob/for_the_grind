@@ -1,7 +1,13 @@
+import Form from '../components/Form';
+import '../css/page.css';
+
 function Signup() {
 	return (
 		<>
-			<h1>Signup</h1>
+			<h1 className='page-title'>Signup</h1>
+			<div className='container'>
+				<Form />
+			</div>
 		</>
 	);
 }

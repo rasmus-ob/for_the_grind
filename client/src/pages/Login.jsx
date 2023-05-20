@@ -1,7 +1,11 @@
+import Form from '../components/Form';
+import '../css/page.css';
+
 function Login() {
 	return (
 		<>
-			<h1>Login</h1>
+			<h1 className='page-title'>Login</h1>
+			<Form />
 		</>
 	);
 }
