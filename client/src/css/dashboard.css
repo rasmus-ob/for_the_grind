@@ -1,0 +1,33 @@
+.dashboard {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+.recent-tables {
+	margin: 1em;
+}
+
+.recent-tables > li {
+	list-style: none;
+	width: 70%;
+	margin: 2em auto;
+}
+
+.recent-tables > li > button {
+	font-size: 2em;
+	width: 100%;
+	border: none;
+	border-radius: 1em;
+	cursor: pointer;
+	transition: 250ms;
+	text-overflow: clip;
+	white-space: nowrap;
+	overflow: auto;
+	padding: 0.25em;
+}
+
+.recent-tables > li > button:hover {
+	background-color: #999;
+}
+.summary-chart {
+}
