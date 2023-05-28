@@ -1,10 +1,8 @@
 .content {
-	--content-txt-color: #000;
-	--content-bg-color: #fff;
 	max-width: 80%;
 	min-height: 1em;
 	margin: 1em auto;
 	padding: 2em;
-	background-color: var(--content-bg-color);
-	color: var(--content-txt-color);
+	background-color: rgba(var(--secondary-bg-color), 0.8);
+	color: rgba(var(--main-txt-color), 0.8);
 }

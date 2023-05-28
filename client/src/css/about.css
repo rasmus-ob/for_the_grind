@@ -1,0 +1,16 @@
+.about {
+	padding: 1em;
+}
+
+.about .section {
+	margin-bottom: 1.7em;
+	line-height: 1.5;
+	font-size: 1.2em;
+}
+
+.about .quote {
+	font-size: 2em;
+	text-align: center;
+	font-style: italic;
+	font-weight: 700;
+}

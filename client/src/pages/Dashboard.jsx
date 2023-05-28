@@ -11,6 +11,7 @@ import {
 } from 'chart.js';
 
 import '../css/dashboard.css';
+import '../css/page.css';
 
 function Dashboard() {
 	ChartJS.register(
@@ -67,7 +68,7 @@ function Dashboard() {
 	return (
 		<>
 			<h1 className='page-title'>Dashboard</h1>
-			<div className='dashboard'>
+			<div className='dashboard page-container'>
 				<div className='recent-tables'>
 					<li>
 						<button>Workouts</button>

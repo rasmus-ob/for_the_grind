@@ -1,5 +1,5 @@
 .header {
-	background-color: var(--secondary-bg-color);
+	background-color: rgba(var(--secondary-bg-color), 1);
 	margin: 0;
 	padding: 1em;
 	display: flex;

@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 :root {
-	--main-bg-color: #31323b;
-	--secondary-bg-color: #685b99;
-	--main-txt-color: #fff;
+	--main-bg-color: 49, 50, 59;
+	--secondary-bg-color: 104, 91, 153;
+	--main-txt-color: 255, 255, 255;
 }
 * {
 	font-family: Inter;
@@ -12,7 +12,7 @@
 }
 
 body {
-	background-color: var(--main-bg-color);
-	color: var(--main-txt-color);
+	background-color: rgba(var(--main-bg-color), 1);
+	color: rgba(var(--main-txt-color), 1);
 	margin: 0;
 }
