@@ -1,4 +1,4 @@
-# for the grind
+# for the grind 🚀
 
 This project is dedicated for the self-improvement community
 
